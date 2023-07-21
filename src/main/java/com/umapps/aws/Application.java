@@ -1,4 +1,4 @@
-package com.baeldung.aws;
+package com.umapps.aws;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

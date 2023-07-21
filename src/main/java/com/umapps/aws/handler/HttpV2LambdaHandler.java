@@ -1,4 +1,4 @@
-package com.baeldung.aws.handler;
+package com.umapps.aws.handler;
 
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
@@ -6,7 +6,7 @@ import com.amazonaws.serverless.proxy.model.HttpApiV2ProxyRequest;
 import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.baeldung.aws.Application;
+import com.umapps.aws.Application;
 
 public class HttpV2LambdaHandler implements RequestHandler<HttpApiV2ProxyRequest, AwsProxyResponse> {
     private static SpringBootLambdaContainerHandler<HttpApiV2ProxyRequest, AwsProxyResponse> handler;

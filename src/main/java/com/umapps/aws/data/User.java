@@ -1,4 +1,4 @@
-package com.baeldung.aws.data;
+package com.umapps.aws.data;
 
 public class User {
 
